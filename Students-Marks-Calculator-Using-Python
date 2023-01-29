@@ -1,0 +1,17 @@
+Phy=eval(input(" Enter Physics Marks : "))
+Eng=eval(input(" Enter English Marks : "))
+Chem=eval(input(" Enter Chemistry Marks : "))
+Math=eval(input(" Enter Mathematics Marks : "))
+Pak_Study=eval(input(" Enter Pak Study Marks : "))
+Islamyat=eval(input(" Enter Islamyat Marks : "))
+Urdu=eval(input(" Enter Pak Urdu Marks : "))
+Biology=eval(input(" Enter Pak Biology Marks : "))
+# total_marks = (print("Your Total Marks Are : " , Phy+Eng+Chem+Math))
+obtained_marks = Phy+Eng+Chem+Math+Pak_Study+Islamyat+Urdu+Biology
+print(obtained_marks)
+percentage = obtained_marks/800*100
+print(percentage, "Percentage")
+if percentage>=33 :
+       print("You are Pass")
+else:
+       print("You are fail")
